@@ -1,4 +1,5 @@
 # Multilingue Resume Website ZHANG
+## -------------------------------
 ## Chinese, Franch and English
 ## -------------------------------
 ## With a back office
@@ -13,3 +14,5 @@
 ### $username = "root";
 ### $password = "root";
 ### (to modify accroding to your server)
+## -------------------------------
+# See my website on live : https://yuxiangzhang123.com/

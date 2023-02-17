@@ -2,7 +2,8 @@
 ## -------------------------------
 ## Chinese, Franch and English
 ## -------------------------------
-## With a back office
+## With a back office (add, delete, modify contents)
+### (simple design, you are free to improve it.)
 ## -------------------------------
 ## import the 3 ducuments .sql
 ## -------------------------------

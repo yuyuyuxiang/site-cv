@@ -87,8 +87,7 @@ CREATE TABLE `webmaster` (
 --
 
 INSERT INTO `webmaster` (`admin_name`, `admin_password`) VALUES
-('root', 'root'),
-('yuxiang.zhang', 'zyx19970521');
+('root', 'root');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

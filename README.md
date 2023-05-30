@@ -1,6 +1,6 @@
 # Multilingue Resume Website ZHANG
 ## -------------------------------
-## Chinese, Franch and English
+## Chinese, French and English
 ## -------------------------------
 ## With a back office (add, delete, modify contents)
 ### (simple design, you are free to improve it.)

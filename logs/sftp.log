@@ -1,0 +1,63 @@
+Jan  9 09:48:21 10.71.56.0 u109358622 Connection from 10.71.56.0 port 34458 on 82.165.82.134 port 22
+Jan  9 09:48:21 10.71.56.0 u109358622 Accepted password for u109358622 from 10.71.56.0 port 34458 ssh2
+Jan  9 09:48:21 10.71.56.0 u109358622 Starting session: subsystem 'sftp' for u109358622 from 10.71.56.0 port 34458 id 0
+Jan  9 09:48:22 10.71.56.0 u109358622 session opened for local user u109358622 from [10.71.56.0]
+Jan  9 10:05:05 10.71.56.0 u109358622 Connection closed by 10.71.56.0 port 34458
+Jan  9 10:05:05 10.71.56.0 u109358622 session closed for local user u109358622 from [10.71.56.0]
+Jan  9 14:39:48 10.71.56.0 u109358622 Connection from 10.71.56.0 port 13838 on 82.165.82.134 port 22
+Jan  9 14:39:48 10.71.56.0 u109358622 Accepted password for u109358622 from 10.71.56.0 port 13838 ssh2
+Jan  9 14:39:48 10.71.56.0 u109358622 Starting session: subsystem 'sftp' for u109358622 from 10.71.56.0 port 13838 id 0
+Jan  9 14:39:48 10.71.56.0 u109358622 session opened for local user u109358622 from [10.71.56.0]
+Jan  9 14:40:14 10.71.56.0 u109358622 Connection from 10.71.56.0 port 13938 on 82.165.82.134 port 22
+Jan  9 14:40:15 10.71.56.0 u109358622 Accepted password for u109358622 from 10.71.56.0 port 13938 ssh2
+Jan  9 14:40:14 10.71.56.0 u109358622 Connection from 10.71.56.0 port 13940 on 82.165.82.134 port 22
+Jan  9 14:40:15 10.71.56.0 u109358622 Accepted password for u109358622 from 10.71.56.0 port 13940 ssh2
+Jan  9 14:40:15 10.71.56.0 u109358622 Starting session: subsystem 'sftp' for u109358622 from 10.71.56.0 port 13938 id 0
+Jan  9 14:40:15 10.71.56.0 u109358622 Starting session: subsystem 'sftp' for u109358622 from 10.71.56.0 port 13940 id 0
+Jan  9 14:40:15 10.71.56.0 u109358622 session opened for local user u109358622 from [10.71.56.0]
+Jan  9 14:40:15 10.71.56.0 u109358622 session opened for local user u109358622 from [10.71.56.0]
+Jan  9 14:40:15 10.71.56.0 u109358622 sent status No such file
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/.bash_history" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/project-1.php" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/.bash_history" bytes read 409 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|409|0|0|0|2f2e626173685f686973746f7279|]
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/project-1.php" bytes read 11932 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|11932|0|0|0|2f70726f6a6563742d312e706870|]
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/project-2.php" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/project-4.php" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/project-4.php" bytes read 11679 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/project-2.php" bytes read 11960 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|11960|0|0|0|2f70726f6a6563742d322e706870|]
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|11679|0|0|0|2f70726f6a6563742d342e706870|]
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/project-5.php" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/choixlang.php" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/choixlang.php" bytes read 802 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|802|0|0|0|2f63686f69786c616e672e706870|]
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/project-5.php" bytes read 11525 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|11525|0|0|0|2f70726f6a6563742d352e706870|]
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/project-6.php" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/project-3.php" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/project-6.php" bytes read 11434 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|11434|0|0|0|2f70726f6a6563742d362e706870|]
+Jan  9 14:40:15 10.71.56.0 u109358622 close "/project-3.php" bytes read 11684 written 0
+Jan  9 14:40:15 10.71.56.0 u109358622 [10.71.56.0|get|0|11684|0|0|0|2f70726f6a6563742d332e706870|]
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/aos.js" flags READ mode 0666
+Jan  9 14:40:15 10.71.56.0 u109358622 open "/index.php" flags READ mode 0666
+Jan  9 14:40:16 10.71.56.0 u109358622 close "/aos.js" bytes read 14690 written 0
+Jan  9 14:40:16 10.71.56.0 u109358622 [10.71.56.0|get|1|14690|0|0|0|2f616f732e6a73|]
+Jan  9 14:40:16 10.71.56.0 u109358622 close "/index.php" bytes read 23647 written 0
+Jan  9 14:40:16 10.71.56.0 u109358622 [10.71.56.0|get|1|23647|0|0|0|2f696e6465782e706870|]
+Jan  9 14:40:16 10.71.56.0 u109358622 open "/index.js" flags READ mode 0666
+Jan  9 14:40:16 10.71.56.0 u109358622 open "/README.md" flags READ mode 0666
+Jan  9 14:40:16 10.71.56.0 u109358622 close "/index.js" bytes read 3264 written 0
+Jan  9 14:40:16 10.71.56.0 u109358622 [10.71.56.0|get|0|3264|0|0|0|2f696e6465782e6a73|]
+Jan  9 14:40:16 10.71.56.0 u109358622 close "/README.md" bytes read 17 written 0
+Jan  9 14:40:16 10.71.56.0 u109358622 [10.71.56.0|get|0|17|0|0|0|2f524541444d452e6d64|]
+Jan  9 14:40:16 10.71.56.0 u109358622 open "/.zip" flags READ mode 0666
+Jan  9 14:40:16 10.71.56.0 u109358622 open "/logs/access.log.48.gz" flags READ mode 0666
+Jan  9 14:40:16 10.71.56.0 u109358622 close "/logs/access.log.48.gz" bytes read 5991 written 0
+Jan  9 14:40:16 10.71.56.0 u109358622 [10.71.56.0|get|0|5991|0|0|0|2f6c6f67732f6163636573732e6c6f672e34382e677a|]
+Jan  9 14:40:16 10.71.56.0 u109358622 open "/logs/sftp.log.51.gz" flags READ mode 0666
+Jan  9 14:40:17 10.71.56.0 u109358622 close "/logs/sftp.log.51.gz" bytes read 3372 written 0
+Jan  9 14:40:17 10.71.56.0 u109358622 [10.71.56.0|get|1|3372|0|0|0|2f6c6f67732f736674702e6c6f672e35312e677a|]
+Jan  9 14:40:17 10.71.56.0 u109358622 open "/logs/sftp.log" flags READ mode 0666

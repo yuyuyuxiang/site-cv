@@ -6,7 +6,7 @@ if ($conn->connect_error) {
     die("Connetion failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT titre, sousTitre, img, lien, initial FROM project ORDER BY ";
+$sql = "SELECT titre, sousTitre, img, lien, initial FROM project";
 $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     $titre = array();

@@ -5,6 +5,9 @@
 [1200 - 1800] is where our normal styles apply
 1800px + :      Big desktop
 */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+
 :root {
     /*--main-color: #0062b9;*/
     --main-color : #3F72AF;
@@ -1060,6 +1063,7 @@ textarea {
 
 .main-footer__social-cont {
     margin-top: 2rem;
+    display: inline-flex;
 }
 
 .main-footer__icon {
@@ -1067,14 +1071,52 @@ textarea {
     width: 2.5rem;
 }
 
+.main-footer__icon:hover{
+    transform: scale(1.1);
+}
+
 .main-footer__icon--mr-none {
     margin-right: 0;
 }
 
+.main-footer__social-cont .icon {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .main-footer__social-cont .linkedin:hover,
+  .main-footer__social-cont .linkedin:hover .tooltip {
+    background-color: #0E76A8;
+    color: var(--main-white);
+  }
+  
+  .main-footer__social-cont .instagram:hover {
+    background-image: linear-gradient(to bottom right, #dd2a7b, #f58529);
+    color: var(--main-white);
+  }
+  
+  .main-footer__social-cont .github:hover {
+    background-color: #333333;
+    color: var(--main-white);
+  }
+
 .main-footer__lower {
     padding: 4rem 0;
     border-top: 1px solid #444;
-    color: #eee;
+    color: var(--main-white);
     font-size: 1.4rem;
     text-align: left;
     text-align: center;

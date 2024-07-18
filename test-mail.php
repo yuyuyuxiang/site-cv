@@ -27,7 +27,7 @@ try {
     $mail->Host = 'smtp.gmail.com'; // 设置SMTP服务器
     $mail->SMTPAuth = true; // 启用SMTP认证
     $mail->Username = 'yuxiangzhang.0521@gmail.com'; // SMTP 用户名
-    $mail->Password = 'glry cbos tylb anvc'; // SMTP 密码
+    $mail->Password = 'lol'; // SMTP 密码
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;                      // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;
 

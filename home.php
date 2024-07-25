@@ -1,25 +1,3 @@
-<?php
-$conn = new mysqli($servername, $username, $password, $dbname);
-$conn->set_charset('utf8');
-// Check connection
-if ($conn->connect_error) {
-    die("Connetion failed: " . $conn->connect_error);
-}
-
-$sql2 = "SELECT tel, mail, adress FROM coordonnee";
-$result2 = $conn->query($sql2);
-if ($result2->num_rows > 0) {
-    $tel='';
-    $mail='';
-    $adress='';
-    while($row2=$result2->fetch_array(MYSQLI_ASSOC)){
-        $tel=$row2['tel'];
-        $mail=$row2['mail'];
-        $adress=$row2['adress'];
-    }
-}
-$conn->close();
-?>
 <section class="home-hero">
     <div class="home-hero__content">
         <h1 class="heading-primary" data-aos="zoom-in" data-aos-duration="1000"><?php echo MSG_BIENVENUE;?></h1>
@@ -247,13 +225,40 @@ $conn->close();
                 </div>
                 <button id="btn_submit" name="btn_submit" class="btn btn--theme contact__btn"><?php echo CONTACT_BTN;?></button>
             </form>
+          	<?php
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            $conn->set_charset('utf8');
+
+            // 检查连接
+            if ($conn->connect_error) {
+                die("Connection failed: " . $conn->connect_error);
+            }
+
+            $sql2 = "SELECT tel, mail, adress FROM coordonnee";
+            $result2 = $conn->query($sql2);
+
+            $tel = '';
+            $mail = '';
+            $address = '';
+
+            if ($result2->num_rows > 0) {
+                while ($row2 = $result2->fetch_assoc()) {
+                    $tel = $row2['tel'];
+                    $mail = $row2['mail'];
+                    $address = $row2['adress'];
+                }
+            }
+
+            $conn->close();
+            ?>
+
             <div class="contact_info-container">
-                <p class="contact_info-number"><strong><?php echo CONTACT_TEL;?></strong></p>
-                <a href="tel:+33699427731" class="contact_tel"><?php echo $tel; ?></a>
-                <p class="contact_info-mail"><strong><?php echo CONTACT_MAIL;?></strong></p>
-                <a href="mailto:yuxiang.zhang@yuxiangzhang123.com" class="contact_mail"><?php echo $mail; ?></a>
-                <p class="contact_info-adress"><strong><?php echo CONTACT_ADDRESS;?></strong></p>
-                <a href="https://goo.gl/maps/T3Ruh68yBbw3fYBP8" class="contact_address" target="_blank"><?php echo $adress; ?></a>
+                <p class="contact_info-number"><strong><?php echo htmlspecialchars(CONTACT_TEL); ?></strong></p>
+                <a href="tel:+33699427731" class="contact_tel"><?php echo htmlspecialchars($tel); ?></a>
+                <p class="contact_info-mail"><strong><?php echo htmlspecialchars(CONTACT_MAIL); ?></strong></p>
+                <a href="mailto:yuxiang.zhang@yuxiangzhang123.com" class="contact_mail"><?php echo htmlspecialchars($mail); ?></a>
+                <p class="contact_info-address"><strong><?php echo htmlspecialchars(CONTACT_ADDRESS); ?></strong></p>
+                <a href="https://goo.gl/maps/T3Ruh68yBbw3fYBP8" class="contact_address" target="_blank"><?php echo htmlspecialchars($address); ?></a>
             </div>
         </div>
     </div>
